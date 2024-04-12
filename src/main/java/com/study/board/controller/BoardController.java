@@ -79,7 +79,7 @@ public class BoardController {
 
         model.addAttribute("board", boardService.boardView(id));
 
-        return "boardModify";
+        return "boardmodify";
     }
 
     @PostMapping("/board/update/{id}")  //특정 게시글을 수정하고, 수정 완료 메시지와 함께 메시지 페이지로 이동
